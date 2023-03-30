@@ -57,6 +57,8 @@ public class App
         System.out.println("read customer with its id: " + customer.getId());
         System.out.println(db.getData(customer, customer.getId()));
         
+        //delete
+        db.deleteData(acc2);
         
     }
     
