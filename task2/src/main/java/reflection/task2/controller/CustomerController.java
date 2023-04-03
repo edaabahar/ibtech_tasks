@@ -23,13 +23,13 @@ public class CustomerController {
 		transaction.commit();
 	}
 	
-	public void UpdateCustomer(Customer customer) {
+	public void update(Customer customer) {
 		Transaction transaction = session.beginTransaction();
 		session.update(customer);
 		transaction.commit();
 	}
 	
-	public void DeleteCustomer(Customer customer) {
+	public void delete(Customer customer) {
 		Transaction transaction = session.beginTransaction();
 		session.delete(customer);
 		transaction.commit();

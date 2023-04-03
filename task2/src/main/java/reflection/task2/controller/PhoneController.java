@@ -12,19 +12,19 @@ public class PhoneController {
 		this.session = session;
 	}
 	
-	public void AddPhone(Phone phone) {
+	public void add(Phone phone) {
 		Transaction transaction = session.beginTransaction();
 		session.save(phone);
 		transaction.commit();
 	}
 	
-	public void UpdatePhone(Phone phone) {
+	public void update(Phone phone) {
 		Transaction transaction = session.beginTransaction();
 		session.update(phone);
 		transaction.commit();
 	}
 	
-	public void DeletePhone(Phone phone) {
+	public void delete(Phone phone) {
 		Transaction transaction = session.beginTransaction();
 		session.delete(phone);
 		transaction.commit();

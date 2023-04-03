@@ -12,19 +12,19 @@ public class AccountController {
 		this.session = session;
 	}
 	
-	public void AddAccount(Account account) {
+	public void add(Account account) {
 		Transaction transaction = session.beginTransaction();
 		session.save(account);
 		transaction.commit();
 	}
 	
-	public void UpdateAcocunt(Account account) {
+	public void update(Account account) {
 		Transaction transaction = session.beginTransaction();
 		session.update(account);
 		transaction.commit();
 	}
 	
-	public void DeleteAccount(Account account) {
+	public void delete(Account account) {
 		Transaction transaction = session.beginTransaction();
 		session.delete(account);
 		transaction.commit();
