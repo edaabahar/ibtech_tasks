@@ -1,0 +1,16 @@
+package reflection.task2.bag;
+
+public enum BagKey {
+	CUSTOMERID,
+	NAME,
+	SURNAME,
+	EMAIL,
+	ACCOUNTID,
+	BALANCE,
+	CREATEDAT,
+	LASTUPDATEDAT,
+	ADDRESSID,
+	ADDRESSINFO,
+	PHONEID,
+	PHONENUMBER
+}

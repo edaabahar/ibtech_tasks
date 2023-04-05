@@ -29,3 +29,19 @@ task2/.mvn/wrapper/maven-wrapper.jar
 
 task2/.classpath
 task2/.project
+
+# task3
+task3/target/
+task3/pom.xml.tag
+task3/pom.xml.releaseBackup
+task3/pom.xml.versionsBackup
+task3/pom.xml.next
+task3/release.properties
+task3/dependency-reduced-pom.xml
+task3/buildNumber.properties
+task3/.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+task3/.mvn/wrapper/maven-wrapper.jar
+
+task3/.classpath
+task3/.project
